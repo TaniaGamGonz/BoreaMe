@@ -1,0 +1,17 @@
+
+@mixin button($color: $btn-color-default, $background: $btn-bgcolor-default, $font-size: $btn-fz, $padding: $btn-padding, $border-radius: $btn-radius, $weight: $btn-weight) {
+    display: inline-block;
+    border: 0;
+    border-radius: $border-radius;
+    padding: $padding;
+    background-color: $background;
+    color: $color;
+    outline: none;
+    font: {
+      size: $font-size;
+      weight: $weight;
+    }
+    cursor: pointer;
+    -webkit-appearance: none;
+    text-decoration:none;
+  }

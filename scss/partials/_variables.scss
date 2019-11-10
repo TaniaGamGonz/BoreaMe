@@ -1,0 +1,41 @@
+//Colors
+$primary-color: #5d6e6a;
+$color-add: #0bd4a4;
+$color-update: #0cb7f5;
+
+$grey-100:#ebf0ef;
+$grey-90: #eeeeee;
+$grey-85: #dadada;
+$grey-75: #aaaaaa;
+$grey-60: #999999;
+$grey-55: #979797;
+$grey-40: #4a4a4a;
+$grey-30: #333333;
+
+//Text 
+$primary-text-color: $grey-40;
+$seconadry-text-color: $grey-30;
+$fz-text-md: rem(16px);
+$fz-text-sm: rem(14px);
+$fz-text-lg: rem(33px);
+
+//Radius general
+$radius: 4px;
+
+//Buttons
+$btn-bgcolor-default: $grey-90;
+$btn-bgcolor-add: $color-add;
+$btn-bgcolor-update: $color-update;
+$btn-fz: $fz-text-sm;
+$btn-fz-lg: $fz-text-md;
+$btn-padding: 6px 12px;
+$btn-radius: $radius;
+$btn-weight: medium;
+$btn-color-default: $grey-40;
+
+//Input height
+$input-height: rem(38px);
+
+//Border
+$color-border: $grey-85;
+$border-default: 1px solid $color-border;

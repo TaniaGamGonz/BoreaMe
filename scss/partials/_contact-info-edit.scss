@@ -1,0 +1,86 @@
+.contact-info,
+.contact-new
+{
+    grid-column-start: 3;
+    grid-row: 1 / -1;
+}
+
+//Contact-info
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    &__name{
+        padding: 40px 47px;
+        border-bottom: $border-default;
+    }
+
+    &__group{
+        padding-left: 90px;
+        position: relative;
+    }
+
+    &__title{
+        font-size: $fz-text-lg;
+        font-weight: 300;
+        color: $grey-40;
+        margin-bottom: 5px;
+
+        &::before{
+            content: attr(data-first-letter);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            font-size: rem(44px);
+            font-weight: 300;
+            left: 0;
+            bottom: -6px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: #d0021b;
+            height: 68px;
+            width: 68px;
+        }
+    }
+    &__class{
+        font-size: $fz-text-sm;
+        color: $grey-60;
+    }
+
+    &__contact-dates{
+        padding: 30px 52px;
+        border-bottom: $border-default;
+    }
+    &__email{
+        margin-bottom: 24px;
+    }
+
+    &__email,
+    &__phone{
+        display: flex;
+        align-items: center;
+    }
+
+    &__edit{
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 30px 30px 50px;
+    }
+
+
+}
+
+.icon--info{
+    margin-top: 5px;
+    margin-right: 18px;
+}
+.btn--edit{
+    align-self: flex-start;
+}
+.btn--plus{
+    background-color: $color-add;
+    align-self: flex-end;
+    padding: 12px;
+}

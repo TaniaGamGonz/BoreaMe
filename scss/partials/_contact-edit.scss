@@ -1,0 +1,36 @@
+.contact-edit,
+.contact-new{
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: flex-end;
+    background-color: #fff;
+    border-left: $border-default;
+    padding: 24px 0;
+}
+.contact-new{
+    height: 100%;
+}
+
+.button-group{
+    flex-grow: 1;
+    padding: 30px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.btn--update{
+    color: #fff;
+    background-color: $color-update;
+    font-weight: 500;
+    
+    
+}
+.btn--close{
+font-size: rem(20px);    
+
+}
+.button-group .btn--plus{
+    color: #fff;
+    align-self: flex-start
+}

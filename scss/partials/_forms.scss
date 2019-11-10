@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    color: $grey-40;
+    height: 100%;
+
+    &-group{
+        display: flex;
+        flex-direction: column;  
+        
+        &--phone{
+            margin-top: 15px;
+        }
+        &--alone{
+            padding: 25px 25px 36px 25px;
+            border-bottom: $border-default;
+        }
+    
+        & + &{
+        margin-top: 15px;
+        }
+        &__control{
+        border: $border-default;
+        height: $input-height;
+        flex-grow: 1;
+        border-radius: $radius;
+         }
+        &__label{
+        display: block;
+        margin-bottom: 4px;
+        }
+    }
+
+    &__name-surname,
+    &__contact{
+    padding: 0 24px 37px 24px;
+    border-bottom: $border-default;
+    }
+
+    &__contact{
+        padding: 25px 24px 27px 24px;
+        background-color: #f8f8f8;
+    }
+
+}

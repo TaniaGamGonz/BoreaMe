@@ -1,0 +1,31 @@
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-rows: auto;
+    font-family: 'Encode Sans', sans-serif;
+}
+input, 
+textarea,
+select{
+    font-size: 1rem;
+    font-family: 'Encode Sans', sans-serif;
+}
+select{
+    background-color: #fff;
+}
+.label-hidden{
+    display: none;
+}
+.btn{
+    @include button;
+}
+
+.h2{
+    margin-bottom: 21px;
+    margin-left: 24px;
+    font-size: rem(19px);
+    font-weight: bold;
+    color: $grey-40;
+}
